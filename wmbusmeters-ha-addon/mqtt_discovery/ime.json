@@ -1,729 +1,729 @@
 {
-  "positive_total_active_energy_kwh": {
-    "attribute": "positive_total_active_energy_kwh",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Positive Totalctive Energyh",
-      "unique_id": "wmbusmeters_{name}_positive_total_active_energy_kwh",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.positive_total_active_energy_kwh }}",
-      "unit_of_measurement": "kWh",
-      "device_class": "energy",
-      "state_class": "total_increasing"
-    }
-  },
-  "partial_positive_active_energy_kwh": {
-    "attribute": "partial_positive_active_energy_kwh",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Partial Positivective Energyh",
-      "unique_id": "wmbusmeters_{name}_partial_positive_active_energy_kwh",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.partial_positive_active_energy_kwh }}",
-      "unit_of_measurement": "kWh",
-      "device_class": "energy",
-      "state_class": "total_increasing"
-    }
-  },
-  "positive_tariff1_active_energy_kwh": {
-    "attribute": "positive_tariff1_active_energy_kwh",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Positive Tariff1Ctive Energyh",
-      "unique_id": "wmbusmeters_{name}_positive_tariff1_active_energy_kwh",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.positive_tariff1_active_energy_kwh }}",
-      "unit_of_measurement": "kWh",
-      "device_class": "energy",
-      "state_class": "total_increasing"
-    }
-  },
-  "positive_tariff2_active_energy_kwh": {
-    "attribute": "positive_tariff2_active_energy_kwh",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Positive Tariff2Ctive Energyh",
-      "unique_id": "wmbusmeters_{name}_positive_tariff2_active_energy_kwh",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.positive_tariff2_active_energy_kwh }}",
-      "unit_of_measurement": "kWh",
-      "device_class": "energy",
-      "state_class": "total_increasing"
-    }
-  },
-  "negative_total_active_energy_kwh": {
-    "attribute": "negative_total_active_energy_kwh",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Negative Totalctive Energyh",
-      "unique_id": "wmbusmeters_{name}_negative_total_active_energy_kwh",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.negative_total_active_energy_kwh }}",
-      "unit_of_measurement": "kWh",
-      "device_class": "energy",
-      "state_class": "total_increasing"
-    }
-  },
-  "current_l1_a": {
-    "attribute": "current_l1_a",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Current L1",
-      "unique_id": "wmbusmeters_{name}_current_l1_a",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.current_l1_a }}",
-      "unit_of_measurement": "A",
-      "device_class": "current",
-      "state_class": "measurement"
-    }
-  },
-  "current_l2_a": {
-    "attribute": "current_l2_a",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Current L2",
-      "unique_id": "wmbusmeters_{name}_current_l2_a",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.current_l2_a }}",
-      "unit_of_measurement": "A",
-      "device_class": "current",
-      "state_class": "measurement"
-    }
-  },
-  "current_l3_a": {
-    "attribute": "current_l3_a",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Current L3",
-      "unique_id": "wmbusmeters_{name}_current_l3_a",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.current_l3_a }}",
-      "unit_of_measurement": "A",
-      "device_class": "current",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_1_n_v": {
-    "attribute": "voltage_1_n_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 1 N",
-      "unique_id": "wmbusmeters_{name}_voltage_1_n_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_1_n_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_2_n_v": {
-    "attribute": "voltage_2_n_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 2 N",
-      "unique_id": "wmbusmeters_{name}_voltage_2_n_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_2_n_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_3_n_v": {
-    "attribute": "voltage_3_n_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 3 N",
-      "unique_id": "wmbusmeters_{name}_voltage_3_n_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_3_n_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_1_2_v": {
-    "attribute": "voltage_1_2_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 1 2",
-      "unique_id": "wmbusmeters_{name}_voltage_1_2_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_1_2_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_2_3_v": {
-    "attribute": "voltage_2_3_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 2 3",
-      "unique_id": "wmbusmeters_{name}_voltage_2_3_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_2_3_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "voltage_3_1_v": {
-    "attribute": "voltage_3_1_v",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Voltage 3 1",
-      "unique_id": "wmbusmeters_{name}_voltage_3_1_v",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.voltage_3_1_v }}",
-      "unit_of_measurement": "V",
-      "device_class": "voltage",
-      "state_class": "measurement"
-    }
-  },
-  "active_power_l1_kw": {
-    "attribute": "active_power_l1_kw",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Active Power L1",
-      "unique_id": "wmbusmeters_{name}_active_power_l1_kw",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.active_power_l1_kw }}",
-      "unit_of_measurement": "kW",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "active_power_l2_kw": {
-    "attribute": "active_power_l2_kw",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Active Power L2",
-      "unique_id": "wmbusmeters_{name}_active_power_l2_kw",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.active_power_l2_kw }}",
-      "unit_of_measurement": "kW",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "active_power_l3_kw": {
-    "attribute": "active_power_l3_kw",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Active Power L3",
-      "unique_id": "wmbusmeters_{name}_active_power_l3_kw",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.active_power_l3_kw }}",
-      "unit_of_measurement": "kW",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "three_phase_total_active_power_kw": {
-    "attribute": "three_phase_total_active_power_kw",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Three Phase Totalctive Power",
-      "unique_id": "wmbusmeters_{name}_three_phase_total_active_power_kw",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.three_phase_total_active_power_kw }}",
-      "unit_of_measurement": "kW",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "three_phase_total_apparent_power_kva": {
-    "attribute": "three_phase_total_apparent_power_kva",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Three Phase Totalpparent Power",
-      "unique_id": "wmbusmeters_{name}_three_phase_total_apparent_power_kva",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.three_phase_total_apparent_power_kva }}",
-      "unit_of_measurement": "kVA",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "three_phase_total_reactive_power_kvar": {
-    "attribute": "three_phase_total_reactive_power_kvar",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Three Phase Total Reactive Powerr",
-      "unique_id": "wmbusmeters_{name}_three_phase_total_reactive_power_kvar",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.three_phase_total_reactive_power_kvar }}",
-      "unit_of_measurement": "kvar",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "reactive_power_l1_kvar": {
-    "attribute": "reactive_power_l1_kvar",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Reactive Power L1R",
-      "unique_id": "wmbusmeters_{name}_reactive_power_l1_kvar",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.reactive_power_l1_kvar }}",
-      "unit_of_measurement": "kvar",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "reactive_power_l2_kvar": {
-    "attribute": "reactive_power_l2_kvar",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Reactive Power L2R",
-      "unique_id": "wmbusmeters_{name}_reactive_power_l2_kvar",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.reactive_power_l2_kvar }}",
-      "unit_of_measurement": "kvar",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "reactive_power_l3_kvar": {
-    "attribute": "reactive_power_l3_kvar",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Reactive Power L3R",
-      "unique_id": "wmbusmeters_{name}_reactive_power_l3_kvar",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.reactive_power_l3_kvar }}",
-      "unit_of_measurement": "kvar",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "apparent_power_l1_kva": {
-    "attribute": "apparent_power_l1_kva",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Apparent Power L1",
-      "unique_id": "wmbusmeters_{name}_apparent_power_l1_kva",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.apparent_power_l1_kva }}",
-      "unit_of_measurement": "kVA",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "apparent_power_l2_kva": {
-    "attribute": "apparent_power_l2_kva",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Apparent Power L2",
-      "unique_id": "wmbusmeters_{name}_apparent_power_l2_kva",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.apparent_power_l2_kva }}",
-      "unit_of_measurement": "kVA",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "apparent_power_l3_kva": {
-    "attribute": "apparent_power_l3_kva",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Apparent Power L3",
-      "unique_id": "wmbusmeters_{name}_apparent_power_l3_kva",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.apparent_power_l3_kva }}",
-      "unit_of_measurement": "kVA",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "frequency_hz": {
-    "attribute": "frequency_hz",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Frequency",
-      "unique_id": "wmbusmeters_{name}_frequency_hz",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.frequency_hz }}",
-      "unit_of_measurement": "Hz",
-      "device_class": "frequency",
-      "state_class": "measurement"
-    }
-  },
-  "three_phase_power_factor": {
-    "attribute": "three_phase_power_factor",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Three Phase Power Factor",
-      "unique_id": "wmbusmeters_{name}_three_phase_power_factor",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.three_phase_power_factor }}",
-      "device_class": "power",
-      "state_class": "measurement"
-    }
-  },
-  "run_meter_tariff1_h": {
-    "attribute": "run_meter_tariff1_h",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Run Meter Tariff1",
-      "unique_id": "wmbusmeters_{name}_run_meter_tariff1_h",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.run_meter_tariff1_h }}",
-      "unit_of_measurement": "h",
-      "device_class": "duration",
-      "state_class": "total_increasing"
-    }
-  },
-  "run_meter_tariff2_h": {
-    "attribute": "run_meter_tariff2_h",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Run Meter Tariff2",
-      "unique_id": "wmbusmeters_{name}_run_meter_tariff2_h",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.run_meter_tariff2_h }}",
-      "unit_of_measurement": "h",
-      "device_class": "duration",
-      "state_class": "total_increasing"
-    }
-  },
-  "run_meter_total_h": {
-    "attribute": "run_meter_total_h",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Run Meter Total",
-      "unique_id": "wmbusmeters_{name}_run_meter_total_h",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.run_meter_total_h }}",
-      "unit_of_measurement": "h",
-      "device_class": "duration",
-      "state_class": "total_increasing"
-    }
-  },
-  "rssi_dbm": {
-    "attribute": "rssi_dbm",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Rssi",
-      "unique_id": "wmbusmeters_{name}_rssi_dbm",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.rssi_dbm }}",
-      "unit_of_measurement": "dBm",
-      "device_class": "signal_strength",
-      "state_class": "measurement",
-      "entity_category": "diagnostic",
-      "enabled_by_default": false
-    }
-  },
-  "timestamp": {
-    "attribute": "timestamp",
-    "component": "sensor",
-    "discovery_payload": {
-      "device": {
-        "identifiers": [
-          "wmbusmeters_{id}"
-        ],
-        "manufacturer": "IME",
-        "model": "Electric Meter",
-        "name": "{name}",
-        "hw_version": "{id}"
-      },
-      "name": "Timestamp",
-      "unique_id": "wmbusmeters_{name}_timestamp",
-      "state_topic": "wmbusmeters/{name}",
-      "value_template": "{{ value_json.timestamp }}",
-      "device_class": "timestamp",
-      "entity_category": "diagnostic",
-      "enabled_by_default": false
+    "positive_total_active_energy_kwh": {
+      "attribute": "positive_total_active_energy_kwh",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Positive Total Active Energy",
+        "unique_id": "wmbusmeters_{name}_positive_total_active_energy_kwh",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.positive_total_active_energy_kwh }}",
+        "unit_of_measurement": "kWh",
+        "device_class": "energy",
+        "state_class": "total_increasing"
+      }
+    },
+    "partial_positive_active_energy_kwh": {
+      "attribute": "partial_positive_active_energy_kwh",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Partial Positive Active Energy",
+        "unique_id": "wmbusmeters_{name}_partial_positive_active_energy_kwh",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.partial_positive_active_energy_kwh }}",
+        "unit_of_measurement": "kWh",
+        "device_class": "energy",
+        "state_class": "total_increasing"
+      }
+    },
+    "positive_tariff1_active_energy_kwh": {
+      "attribute": "positive_tariff1_active_energy_kwh",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Positive Tariff Active Energy",
+        "unique_id": "wmbusmeters_{name}_positive_tariff1_active_energy_kwh",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.positive_tariff1_active_energy_kwh }}",
+        "unit_of_measurement": "kWh",
+        "device_class": "energy",
+        "state_class": "total_increasing"
+      }
+    },
+    "positive_tariff2_active_energy_kwh": {
+      "attribute": "positive_tariff2_active_energy_kwh",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Positive Tariff 2 Active Energy",
+        "unique_id": "wmbusmeters_{name}_positive_tariff2_active_energy_kwh",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.positive_tariff2_active_energy_kwh }}",
+        "unit_of_measurement": "kWh",
+        "device_class": "energy",
+        "state_class": "total_increasing"
+      }
+    },
+    "negative_total_active_energy_kwh": {
+      "attribute": "negative_total_active_energy_kwh",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Negative Total Active Energy",
+        "unique_id": "wmbusmeters_{name}_negative_total_active_energy_kwh",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.negative_total_active_energy_kwh }}",
+        "unit_of_measurement": "kWh",
+        "device_class": "energy",
+        "state_class": "total_increasing"
+      }
+    },
+    "current_l1_a": {
+      "attribute": "current_l1_a",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Current L1",
+        "unique_id": "wmbusmeters_{name}_current_l1_a",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.current_l1_a }}",
+        "unit_of_measurement": "A",
+        "device_class": "current",
+        "state_class": "measurement"
+      }
+    },
+    "current_l2_a": {
+      "attribute": "current_l2_a",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Current L2",
+        "unique_id": "wmbusmeters_{name}_current_l2_a",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.current_l2_a }}",
+        "unit_of_measurement": "A",
+        "device_class": "current",
+        "state_class": "measurement"
+      }
+    },
+    "current_l3_a": {
+      "attribute": "current_l3_a",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Current L3",
+        "unique_id": "wmbusmeters_{name}_current_l3_a",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.current_l3_a }}",
+        "unit_of_measurement": "A",
+        "device_class": "current",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_1_n_v": {
+      "attribute": "voltage_1_n_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 1 N",
+        "unique_id": "wmbusmeters_{name}_voltage_1_n_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_1_n_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_2_n_v": {
+      "attribute": "voltage_2_n_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 2 N",
+        "unique_id": "wmbusmeters_{name}_voltage_2_n_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_2_n_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_3_n_v": {
+      "attribute": "voltage_3_n_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 3 N",
+        "unique_id": "wmbusmeters_{name}_voltage_3_n_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_3_n_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_1_2_v": {
+      "attribute": "voltage_1_2_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 1 2",
+        "unique_id": "wmbusmeters_{name}_voltage_1_2_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_1_2_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_2_3_v": {
+      "attribute": "voltage_2_3_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 2 3",
+        "unique_id": "wmbusmeters_{name}_voltage_2_3_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_2_3_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "voltage_3_1_v": {
+      "attribute": "voltage_3_1_v",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Voltage 3 1",
+        "unique_id": "wmbusmeters_{name}_voltage_3_1_v",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.voltage_3_1_v }}",
+        "unit_of_measurement": "V",
+        "device_class": "voltage",
+        "state_class": "measurement"
+      }
+    },
+    "active_power_l1_kw": {
+      "attribute": "active_power_l1_kw",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Active Power L1",
+        "unique_id": "wmbusmeters_{name}_active_power_l1_kw",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.active_power_l1_kw }}",
+        "unit_of_measurement": "kW",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "active_power_l2_kw": {
+      "attribute": "active_power_l2_kw",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Active Power L2",
+        "unique_id": "wmbusmeters_{name}_active_power_l2_kw",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.active_power_l2_kw }}",
+        "unit_of_measurement": "kW",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "active_power_l3_kw": {
+      "attribute": "active_power_l3_kw",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Active Power L3",
+        "unique_id": "wmbusmeters_{name}_active_power_l3_kw",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.active_power_l3_kw }}",
+        "unit_of_measurement": "kW",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "three_phase_total_active_power_kw": {
+      "attribute": "three_phase_total_active_power_kw",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Three Phase Total Active Power",
+        "unique_id": "wmbusmeters_{name}_three_phase_total_active_power_kw",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.three_phase_total_active_power_kw }}",
+        "unit_of_measurement": "kW",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "three_phase_total_apparent_power_kva": {
+      "attribute": "three_phase_total_apparent_power_kva",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Three Phase Total Apparent Power",
+        "unique_id": "wmbusmeters_{name}_three_phase_total_apparent_power_kva",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.three_phase_total_apparent_power_kva }}",
+        "unit_of_measurement": "kVA",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "three_phase_total_reactive_power_kvar": {
+      "attribute": "three_phase_total_reactive_power_kvar",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Three Phase Total Reactive Power",
+        "unique_id": "wmbusmeters_{name}_three_phase_total_reactive_power_kvar",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.three_phase_total_reactive_power_kvar }}",
+        "unit_of_measurement": "kvar",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "reactive_power_l1_kvar": {
+      "attribute": "reactive_power_l1_kvar",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Reactive Power L1",
+        "unique_id": "wmbusmeters_{name}_reactive_power_l1_kvar",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.reactive_power_l1_kvar }}",
+        "unit_of_measurement": "kvar",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "reactive_power_l2_kvar": {
+      "attribute": "reactive_power_l2_kvar",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Reactive Power L2",
+        "unique_id": "wmbusmeters_{name}_reactive_power_l2_kvar",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.reactive_power_l2_kvar }}",
+        "unit_of_measurement": "kvar",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "reactive_power_l3_kvar": {
+      "attribute": "reactive_power_l3_kvar",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Reactive Power L3",
+        "unique_id": "wmbusmeters_{name}_reactive_power_l3_kvar",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.reactive_power_l3_kvar }}",
+        "unit_of_measurement": "kvar",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "apparent_power_l1_kva": {
+      "attribute": "apparent_power_l1_kva",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Apparent Power L1",
+        "unique_id": "wmbusmeters_{name}_apparent_power_l1_kva",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.apparent_power_l1_kva }}",
+        "unit_of_measurement": "kVA",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "apparent_power_l2_kva": {
+      "attribute": "apparent_power_l2_kva",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Apparent Power L2",
+        "unique_id": "wmbusmeters_{name}_apparent_power_l2_kva",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.apparent_power_l2_kva }}",
+        "unit_of_measurement": "kVA",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "apparent_power_l3_kva": {
+      "attribute": "apparent_power_l3_kva",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Apparent Power L3",
+        "unique_id": "wmbusmeters_{name}_apparent_power_l3_kva",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.apparent_power_l3_kva }}",
+        "unit_of_measurement": "kVA",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "frequency_hz": {
+      "attribute": "frequency_hz",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Frequency",
+        "unique_id": "wmbusmeters_{name}_frequency_hz",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.frequency_hz }}",
+        "unit_of_measurement": "Hz",
+        "device_class": "frequency",
+        "state_class": "measurement"
+      }
+    },
+    "three_phase_power_factor": {
+      "attribute": "three_phase_power_factor",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Three Phase Power Factor",
+        "unique_id": "wmbusmeters_{name}_three_phase_power_factor",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.three_phase_power_factor }}",
+        "device_class": "power",
+        "state_class": "measurement"
+      }
+    },
+    "run_meter_tariff1_h": {
+      "attribute": "run_meter_tariff1_h",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Run Meter Tariff 1",
+        "unique_id": "wmbusmeters_{name}_run_meter_tariff1_h",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.run_meter_tariff1_h }}",
+        "unit_of_measurement": "h",
+        "device_class": "duration",
+        "state_class": "total_increasing"
+      }
+    },
+    "run_meter_tariff2_h": {
+      "attribute": "run_meter_tariff2_h",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Run Meter Tariff 2",
+        "unique_id": "wmbusmeters_{name}_run_meter_tariff2_h",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.run_meter_tariff2_h }}",
+        "unit_of_measurement": "h",
+        "device_class": "duration",
+        "state_class": "total_increasing"
+      }
+    },
+    "run_meter_total_h": {
+      "attribute": "run_meter_total_h",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Run Meter Total",
+        "unique_id": "wmbusmeters_{name}_run_meter_total_h",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.run_meter_total_h }}",
+        "unit_of_measurement": "h",
+        "device_class": "duration",
+        "state_class": "total_increasing"
+      }
+    },
+    "rssi_dbm": {
+      "attribute": "rssi_dbm",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Rssi",
+        "unique_id": "wmbusmeters_{name}_rssi_dbm",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.rssi_dbm }}",
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "state_class": "measurement",
+        "entity_category": "diagnostic",
+        "enabled_by_default": false
+      }
+    },
+    "timestamp": {
+      "attribute": "timestamp",
+      "component": "sensor",
+      "discovery_payload": {
+        "device": {
+          "identifiers": [
+            "wmbusmeters_{id}"
+          ],
+          "manufacturer": "IME",
+          "model": "Electric Meter",
+          "name": "{name}",
+          "hw_version": "{id}"
+        },
+        "name": "Timestamp",
+        "unique_id": "wmbusmeters_{name}_timestamp",
+        "state_topic": "wmbusmeters/{name}",
+        "value_template": "{{ value_json.timestamp }}",
+        "device_class": "timestamp",
+        "entity_category": "diagnostic",
+        "enabled_by_default": false
+      }
     }
   }
-}
